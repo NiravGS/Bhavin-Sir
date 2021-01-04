@@ -1,0 +1,27 @@
+.WhyADP{
+    .title{
+        font-size: 26px;
+        text-align: center;
+        margin: 50px 0;
+                font-weight: bold;
+    }
+    .leftContent{
+        ul{
+            li{
+                font-size: 21px;
+            }
+        }
+    }
+    .analytics{
+        margin-top: 50px;
+        text-align: center;
+        .content{
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            p{
+                height: 25px;
+            }
+        }
+    }
+}

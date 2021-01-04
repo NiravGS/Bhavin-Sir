@@ -1,0 +1,26 @@
+.DataSystem{
+  padding: 80px;
+  background-color: #5e9cff;
+  .Content{
+      color: #fff;
+      text-align: center;
+      h1{
+          font-size: 25px;
+      }
+      p{
+        font-size: 15px;
+        width: 100%;
+        max-width: 383px;
+        margin: auto;
+      }
+  }
+  .ContentButton{
+    text-align: center;
+    margin-top: 50px;
+    button{
+      background-color: #ffa404;
+      border: 0;
+      border-radius: 10px;
+  }
+}
+}

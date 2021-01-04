@@ -1,0 +1,49 @@
+.SliderAera {
+    padding: 80px;
+    background-color: #5e9cff;
+
+    @media(max-width:991px) {
+        padding: 40px;
+    }
+
+    .leftContent {
+        text-align: center;
+
+        h1 {
+            font-size: 30px;
+            color: #fff;
+            font-weight: bold;
+            width: 100%;
+            max-width: 311px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 80px;
+            text-align: center;
+            color: #fff;
+            font-size: 22px;
+            width: 100%;
+            max-width: 321px;
+            margin: auto;
+        }
+
+        .SliderButton {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+
+            button {
+                width: 100%;
+                max-width: 200px;
+                background-color: #ffa404;
+                font-weight: bold;
+                border: 0;
+
+                &:focus {
+                    background-color: #ffa404;
+                }
+            }
+        }
+    }
+}

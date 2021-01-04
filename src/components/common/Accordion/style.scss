@@ -1,0 +1,15 @@
+// :root {
+//   --theme-color-1: #{$theme-color-1};
+//   --theme-color-2: #{$theme-color-2};
+//   --theme-color-3: #{$theme-color-3};
+//   --theme-color-4: #{$theme-color-4};
+//   --theme-color-5: #{$theme-color-5};
+//   --theme-color-6: #{$theme-color-6};
+//   --primary-color: #{$primary-color};
+//   --foreground-color: #{$foreground-color};
+//   --separator-color: #{$separator-color};
+// }
+
+.accordion-header{
+    background-color: #{$theme-color-6};
+}

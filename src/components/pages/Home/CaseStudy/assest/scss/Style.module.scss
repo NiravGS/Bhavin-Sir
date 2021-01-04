@@ -1,0 +1,23 @@
+.CaseStudy {
+    .title {
+        font-size: 26px;
+        text-align: center;
+        margin: 50px 0;
+        font-weight: bold;
+    }
+
+    .CaseStudyBlog {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 10px;
+        .StudyImg {
+            height: 350px;
+        }
+
+        p {
+            width: 100%;
+            max-width: 108px;
+            margin: auto;
+        }
+    }
+}

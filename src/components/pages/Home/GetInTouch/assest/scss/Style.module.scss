@@ -1,0 +1,42 @@
+.GetIntouch {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #5e9cff;
+    border-radius: 50px;
+
+    @media (max-width:991px) {
+        padding: 50px 0;
+    }
+
+    @media (max-width:767px) {
+        padding: 50px 0;
+    }
+
+    .GetIntouchContent {
+        color: #fff;
+
+        h1 {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        h4 {
+            padding-top: 50px;
+            width: 100%;
+            max-width: 400px;
+            text-align: start;
+            margin: auto;
+        }
+    }
+
+    .ContentBtn {
+        button {
+            background-color: #ffa404;
+            border-radius: 5px;
+            border: 0;
+            font-weight: bold;
+            margin-top: 100px;
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+section{
+    margin: 150px 0;
+    @media (max-width:991px) {
+        margin: 80px 0;
+    }
+    @media (max-width:767px) {
+        margin: 40px 0;
+    }
+}
+#HomeSection{
+    margin: 0;
+}
