@@ -32,13 +32,16 @@ const Footer = () => {
                         <div className={Style.footerTitle}>Resources</div>
                         <ul>
                            <li>
-                              <a href="#">Data Integration</a>
+                              <a href="#">Blog</a>
                            </li>
                            <li>
-                              <a href="#">Data Quality</a>
+                              <a href="#">Events</a>
                            </li>
                            <li>
-                              <a href="#">Data Privacy</a>
+                              <a href="#">Webinars</a>
+                           </li>
+                           <li>
+                              <a href="#">News</a>
                            </li>
                         </ul>
                      </div>
@@ -72,20 +75,22 @@ const Footer = () => {
                   </Col>
                   <Col md={4}>
                      <div className={Style.footerMain}>
-                        <div className={Style.footerTitle}>Got a message?</div>
+                        <div className={`${Style.footerTitle} ${Style.footerLast}`}>Got a message?</div>
                         <form>
                            <div className={Style.firstInput}>
                               <Input
                                  type="text"
                                  name="name"
                                  id="exampleEmail"
-                                 placeholder="name"
+                                 placeholder="Name"
+                                 className={Style.InputAreaFooter}
                               />
                               <Input
                                  type="email"
                                  name="email"
                                  id="exampleEmail"
-                                 placeholder="email"
+                                 placeholder="Email"
+                                 className={Style.InputAreaFooter}
                               />
                            </div>
                            <div className={Style.SecondInput}>
@@ -93,7 +98,8 @@ const Footer = () => {
                                  type="text"
                                  name="subject"
                                  id="exampleEmail"
-                                 placeholder="subject"
+                                 placeholder="Subject"
+                                 className={Style.InputAreaFooter}
                               />
                            </div>
                            <div className={Style.ThirdInput}>
@@ -101,26 +107,27 @@ const Footer = () => {
                                  type="textarea"
                                  name="email"
                                  id="exampleEmail"
-                                 placeholder="with a placeholder"
+                                 placeholder="Your Message"
+                                 className={Style.InputAreaFooter}
                               />
                            </div>
                            <div className={Style.footerBtn}>
-                              <Button >Button</Button>
+                              <Button>Button</Button>
                            </div>
                         </form>
                      </div>
                   </Col>
                </Row>
-         </Container>
-         <div className={Style.footerArea}>
-           <div>
-              @2020 copyright
-            </div>
-           <div>
-              Icon
-            </div>
-         </div>
+            </Container>
          </footer>
+         <div className={Style.copyRight}>
+            <Container>
+               <div className={Style.footerArea}>
+                  <div>@2020 copyright</div>
+                  <div>Icon</div>
+               </div>
+            </Container>
+         </div>
       </>
    );
 };

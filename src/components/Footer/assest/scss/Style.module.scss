@@ -5,8 +5,14 @@ footer {
     .footerMain {
         .footerTitle {
             color: #fff;
-            font-size: 19px;
+            font-size: 25px;
             font-weight: bold;
+            height: 45px;
+
+        }
+
+        .footerLast {
+            text-align: center;
         }
 
         ul {
@@ -15,9 +21,13 @@ footer {
 
             li {
                 a {
-                    font-size: 15px;
+                    font-size: 25px;
                     color: #fff;
                     text-decoration: none;
+
+                    @media(max-width:767px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -29,39 +39,68 @@ footer {
             li {
                 border-left: 1px solid rgb(190, 190, 190);
                 padding-left: 10px;
+
                 a {
                     font-size: 10px;
-                    color:  rgb(190, 190, 190);
+                    color: rgb(190, 190, 190);
+
                 }
             }
         }
     }
-    .firstInput{
+
+    .firstInput {
         display: flex;
         margin-top: 15px;
-        input{
-            &:nth-child(2){
+
+        input {
+            &:nth-child(2) {
                 margin-left: 10px;
             }
         }
     }
-    .SecondInput{
+
+    .SecondInput {
         margin-top: 15px;
     }
 
-    .ThirdInput{
+    .ThirdInput {
         margin-top: 15px;
     }
-    .footerBtn{
+
+    .footerBtn {
         margin-top: 15px;
         text-align: center;
-        button{
+
+        button {
             background-color: #ffa404;
-            padding: auto 20px;
+            padding: 6px 20px;
+
+            &:focus {
+                background-color: #ffa404;
+            }
+
+            &:hover {
+                background-color: #ffa404;
+            }
         }
     }
-    .footerArea{
-        background-color: #5e5e5e;
-        padding: 20px 0;
+}
+
+.copyRight {
+    background-color: #5e5e5e;
+    padding: 20px 0;
+
+    .footerArea {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+}
+.InputAreaFooter{
+    border: 3px solid #5e5e5e;
+    &::placeholder{
+        color: #000;
+        font-weight: bold;
     }
 }

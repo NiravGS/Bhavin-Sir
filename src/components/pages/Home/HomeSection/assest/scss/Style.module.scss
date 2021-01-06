@@ -31,17 +31,33 @@
         .SliderButton {
             margin-top: 40px;
             display: flex;
-            justify-content: space-evenly;
-
+            justify-content: center;
+            @media (max-width:767px) {
+                display: block;
+            }
             button {
                 width: 100%;
                 max-width: 200px;
                 background-color: #ffa404;
                 font-weight: bold;
                 border: 0;
-
+                padding: 15px;
+                border-radius: 50px;
+                @media (min-width: 768px) and (max-width:991px) {
+                    padding: 15px 12px;
+                }
+                @media (max-width:767px) {
+                    margin-top: 10px;
+                }
+                
                 &:focus {
                     background-color: #ffa404;
+                }
+                &:nth-child(2){
+                    margin-left: 10px;
+                    @media (max-width:767px) {
+                        margin-left: 0px;
+                    }
                 }
             }
         }

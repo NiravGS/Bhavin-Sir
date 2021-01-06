@@ -1,16 +1,20 @@
 .DataSystem{
   padding: 80px;
   background-color: #5e9cff;
+  @media (max-width:767px) {
+    padding: 10px;
+  }
   .Content{
       color: #fff;
       text-align: center;
       h1{
-          font-size: 25px;
+          font-size: 31px;
       }
       p{
-        font-size: 15px;
+        font-size: 20px;
         width: 100%;
-        max-width: 383px;
+        max-width: 525px;
+        line-height: 25px;
         margin: auto;
       }
   }
@@ -21,6 +25,7 @@
       background-color: #ffa404;
       border: 0;
       border-radius: 10px;
+      padding: 6px 22px;
   }
 }
 }

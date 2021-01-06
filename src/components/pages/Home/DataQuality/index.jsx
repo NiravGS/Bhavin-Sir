@@ -6,7 +6,6 @@ const HomeSection = () => {
    return (
       <>
          <div className={Style.product}>
-            <div className={Style.title}>Products</div>
             <Container>
                <Row>
                   <Col md={6}>

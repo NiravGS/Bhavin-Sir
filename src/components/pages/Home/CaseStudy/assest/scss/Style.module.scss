@@ -8,16 +8,26 @@
 
     .CaseStudyBlog {
         text-align: center;
-        border: 1px solid #000;
+        border: 3px solid #5e5e5e;
+        border-radius: 5px;
         padding: 10px;
+
+        @media (max-width:767px) {
+            margin-top: 20px;
+        }
+
         .StudyImg {
             height: 350px;
+            @media (min-width: 768px) and (max-width:991px) {
+                height: 230px;
+            }
         }
 
         p {
             width: 100%;
             max-width: 108px;
             margin: auto;
+            margin: 0 auto 30px;
         }
     }
 }
